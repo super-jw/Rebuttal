@@ -9,10 +9,11 @@ Table 1: The classification accuracy of ViT-B-16 on ImageNet variants and cross-
 
 |Method|Flower102|DTD|Pets|Cars|UCF101|CalTech101|Food101|SUN397|Aircraft|EuroSAT|Mean|
 |-|-|-|-|-|-|-|-|-|-|-|-|
-|TPT|
-|TPT+BITTA|
-|TPS|
-|TPS+BITTA|
+|TPT|68.98|47.75|87.79|66.87|68.04|94.16|84.67|65.50|24.78|42.44|65.10
+|TPT+BITTA|70.56|48.99|87.33|67.13|68.47|94.85|86.50|66.47|26.08|44.44|66.09
+|TPS|71.28|50.45|87.41|69.04|70.75|95.13|85.18|68.45|26.30|43.80|66.78
+|TPS+BITTA|72.34|51.68|88.69|69.13|71.61|95.47|86.44|72.82|25.67|46.68|68.05
+
 
 Table 2: Comparision with TDA on ImageNet-C using ViT-B-16. The experimental results show that the performance of TDA is inferior to that of BAT+BITTA. However, given the outstanding efficiency of TDA, we believe that combining the training-free strategy of TDA with the over-fitting prevention concept of BITTA will be a very valuable exploration direction in the future.
 
