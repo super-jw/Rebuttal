@@ -1,4 +1,4 @@
-Table 1: The classification accuracy of ViT-B-16 on ImageNet variants and cross-domain dataset. The experimental results show that the BITTA model also demonstrates good compatibility on these different datasets.
+Table 1: **The classification accuracy of ViT-B-16 on ImageNet variants and cross-domain dataset.** The experimental results show that the BITTA model also demonstrates good compatibility on these different datasets.
 
 |Method|ImageNet|ImageNet-A|ImageNet-R|ImageNet-S|ImageNet-V2|Mean|
 |-|-|-|-|-|-|-|
@@ -15,7 +15,7 @@ Table 1: The classification accuracy of ViT-B-16 on ImageNet variants and cross-
 |TPS+BITTA|72.34|51.68|88.69|69.13|71.61|95.47|86.44|72.82|25.67|46.68|68.05
 
 
-Table 2: Comparision with TDA on ImageNet-C using ViT-B-16. The experimental results show that the performance of TDA is inferior to that of BAT+BITTA. However, given the outstanding efficiency of TDA, we believe that combining the training-free strategy of TDA with the over-fitting prevention concept of BITTA will be a very valuable exploration direction in the future.
+Table 2: **Comparision with TDA on ImageNet-C using ViT-B-16.** The experimental results show that the performance of TDA is inferior to that of BAT+BITTA. However, given the outstanding efficiency of TDA, we believe that combining the training-free strategy of TDA with the over-fitting prevention concept of BITTA will be a very valuable exploration direction in the future.
 
 |Method|Gaussian|Shot|Impulse|Defocus|Glass|Motion|Zoom|Snow|Frost|Fog|Brightness|Constrast|Elastic|Pixelate|JPEG|Mean|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -23,13 +23,13 @@ Table 2: Comparision with TDA on ImageNet-C using ViT-B-16. The experimental res
 |BAT+BITTA|22.46|24.10|22.44|28.00|23.94|31.88|29.30|36.92|32.22|41.86|55.88|26.42|22.68|40.38|39.68|31.88
 
 
-Table 3: Comparision with MEMO and BITTA on ImageNet-C using ViT. As can be seen, BITTA is better than marginal entropy proposed by MEMO.
+Table 3: **Comparision with MEMO and BITTA on ImageNet-C using ViT.** As can be seen, BITTA is better than marginal entropy proposed by MEMO.
 |Method|Gaussian|Shot|Impulse|Defocus|Glass|Motion|Zoom|Snow|Frost|Fog|Brightness|Constrast|Elastic|Pixelate|JPEG|Mean|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |MEMO|39.58|37.13|39.42|31.85|25.37|40.55|34.86|26.88|33.21|53.26|65.87|55.74|35.63|55.25|58.76|42.22
 |MEMO+BITTA|40.69|37.74|40.83|32.97|26.63|41.49|35.86|28.69|34.21|54.93|67.84|56.21|36.74|56.85|59.47|43.41
 
-Table 4: The performance fluctuation of different methods. it can be clearly seen that almost all methods will experience performance fluctuations under different noise conditions. Therefore, this phenomenon does not mean that the method we proposed lacks generalization ability.
+Table 4: **The performance fluctuation of different methods.** it can be clearly seen that almost all methods will experience performance fluctuations under different noise conditions. Therefore, this phenomenon does not mean that the method we proposed lacks generalization ability.
 |DPE vs TPT on CIFAR-10-C|TPT vs CLIP on CIFAR-100-C|BAT vs DPE on ImageNet-C|
 |-|-|-|
 |Gaussian,Shot,Impluse|Gaussian,Shot,Motion|Frost,Brightness,Contrast|
